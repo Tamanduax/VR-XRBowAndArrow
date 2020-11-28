@@ -8,4 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_BowAndArrow/Main.unity
     guid: 0bdc2251efd355d45add28195d99d336
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 74809dd805fd76e478f47ea9c6f54425,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 859db98c7fa6b7e49bbb9ccd9a3a3dce,
+      type: 2}

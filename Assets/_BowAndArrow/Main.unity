@@ -294,6 +294,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &827515934 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 320107371, guid: 6c3c0bfa92038bd4aa725e80a43ced1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1137606935895015936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1087267518
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +333,12 @@ Transform:
   m_Father: {fileID: 1309054474}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1259248410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1872672291559342736, guid: 6c3c0bfa92038bd4aa725e80a43ced1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1137606935895015936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1263429727
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +482,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1460227560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 463045334, guid: 6c3c0bfa92038bd4aa725e80a43ced1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1137606935895015936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1501668594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,7 +1060,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AttachTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1259248410}
     - target: {fileID: 1137606935514613500, guid: 6c3c0bfa92038bd4aa725e80a43ced1e,
         type: 3}
       propertyPath: m_InteractionManager
@@ -1052,12 +1070,12 @@ PrefabInstance:
         type: 3}
       propertyPath: start
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 827515934}
     - target: {fileID: 1137606935514613500, guid: 6c3c0bfa92038bd4aa725e80a43ced1e,
         type: 3}
       propertyPath: end
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1460227560}
     - target: {fileID: 2589571369817754473, guid: 6c3c0bfa92038bd4aa725e80a43ced1e,
         type: 3}
       propertyPath: m_Name
@@ -1142,11 +1160,6 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1549864981}
-    - target: {fileID: 2179614927706237428, guid: 6643fbc85ecf3864d9169980fd53311c,
-        type: 3}
-      propertyPath: arrowPrefab
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2179614927706237429, guid: 6643fbc85ecf3864d9169980fd53311c,
         type: 3}
       propertyPath: m_LocalPosition.x
